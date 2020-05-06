@@ -615,6 +615,21 @@ article {
   vertical-align: text-bottom;
 }
 
+a.twitter:hover {
+  color: #4dc3ff;
+  opacity: 0.5;
+}
+
+a.instagram:hover {
+  background: linear-gradient(#e66465, #9198e5);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+}
+
+a.instagram:hover svg.icon{
+  fill: url(#rg);
+}
+
 @media only screen and (max-width: 767px) {
   .name,
   .job,
